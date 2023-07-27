@@ -1,5 +1,7 @@
 # My Portfolio :sparkles:
 
+![Portfolio Page](https://odforbes.vercel.app/)
+
 This portfolio showcases my skills as a full-stack developer :tada:. I have experience with a variety of web technologies, including React JS :rocket:, Python :snake:, HTML :page_with_curl:, CSS :art:, JavaScript :computer:, SQL :database:, and NoSQL :key:. I am also familiar with Agile methodologies :chart_with_upwards_trend: and I am skilled in collaborating with cross-functional teams :busts_in_silhouette:.
 
 ## Projects
