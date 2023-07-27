@@ -6,6 +6,33 @@ import todoBlast from "./assets/todoBlast.png";
 import jacovid from "./assets/jacovid.png";
 
 function App() {
+  const aboutme = (
+    <ul>
+      <li>
+        <strong>
+          Highly skilled and experienced full-stack agile developer
+        </strong>{" "}
+        :rocket:
+      </li>
+      <li>Proficient in a variety of web technologies :computer:</li>
+      <li>Familiar with Agile methodologies :chart_with_upwards_trend:</li>
+      <li>
+        Skilled in collaborating with cross-functional teams
+        :busts_in_silhouette:
+      </li>
+      <li>Highly motivated and self-directed individual :fire:</li>
+      <li>Always eager to learn new things :bulb:</li>
+      <li>
+        Team player who is confident that I would be a valuable asset to any
+        team :people_holding_hands:
+      </li>
+      <li>
+        Passionate about using technology to solve real-world problems
+        :thinking:
+      </li>
+    </ul>
+  );
+
   return (
     <div className="App">
       <section className="sectionA flex items-center text-center md:text-left md:flex md:justify-center bg-calm-blue">
@@ -51,20 +78,26 @@ function App() {
           </div>
           <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white text-left px-5">
             <div className="mb-5 p-5">
-              <p>
-                Odaine Forbes is a passionate software developer with a knack
-                for crafting innovative solutions to complex problems. With
-                Python and JavaScript expertise, their work combines
-                functionality with elegance.
+              <p className="text-sm md:text-md lg:text-lg">
+                Odaine Forbes is a full-stack agile developer with a strong
+                track record of delivering high-quality, user-friendly web
+                applications. I am proficient in a variety of web technologies,
+                including React JS, Python, HTML, CSS, JavaScript, SQL, and
+                NoSQL. I am also familiar with Agile methodologies and I am
+                skilled in collaborating with cross-functional teams.
               </p>
             </div>
 
             <div className="mt-5 md:mt-0 p-5">
-              <p>
-                Odaine is always eager to learn new technologies and frameworks
-                while staying ahead of industry trends. Their work reflects
-                their dedication to continuous improvement and their drive to
-                create impactful software.
+              <p className="text-sm md:text-md lg:text-lg">
+                I am a creative and innovative thinker who is always looking for
+                new ways to solve problems. I am also a highly organized and
+                efficient individual who is able to manage multiple projects
+                simultaneously. I am a team player who is always willing to help
+                others. I am also a good communicator who is able to clearly
+                explain complex technical concepts to both technical and
+                non-technical audiences. I am confident that I would be a
+                valuable asset to your team.
               </p>
             </div>
           </div>
@@ -121,7 +154,9 @@ function App() {
               made heavenly easy
             </div>
             <div>
-              <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              <a href="https://github.com/forbeso/churchdweb">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
             </div>
           </div>
 
@@ -134,7 +169,9 @@ function App() {
               brand/product sentiment analysis tool.
             </div>
             <div>
-              <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              <a href="https://github.com/forbeso/ScrapeandSense">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
             </div>
           </div>
 
@@ -147,7 +184,9 @@ function App() {
               allows you to wake up in a personalized and motivational way
             </div>
             <div>
-              <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              <a href="https://github.com/forbeso/JaCovid">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
             </div>
           </div>
 
@@ -162,7 +201,9 @@ function App() {
               List Web App
             </div>
             <div>
-              <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              <a href="https://github.com/forbeso/TodoBlast">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
             </div>
           </div>
 
@@ -175,7 +216,9 @@ function App() {
               spread of Covid-19 across Jamaica's parishes
             </div>
             <div>
-              <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              <a href="https://github.com/forbeso/JaCovid">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
             </div>
           </div>
         </div>
