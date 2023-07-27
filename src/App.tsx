@@ -184,7 +184,7 @@ function App() {
               allows you to wake up in a personalized and motivational way
             </div>
             <div>
-              <a href="https://github.com/forbeso/JaCovid">
+              <a href="https://github.com/forbeso/AIrise">
                 <i className="devicon-github-original-wordmark colored text-4xl"></i>
               </a>
             </div>
