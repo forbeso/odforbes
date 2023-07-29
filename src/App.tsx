@@ -45,13 +45,13 @@ function App() {
       </section>
 
       <section className="sectionB md:h-50 md:flex md:justify-center bg-real-black">
-        <div className="flex flex-col mx-auto">
+        <div className="flex flex-col md:mx-auto md:w-3/4">
           <div className="mb-5 mt-5 px-5">
-            <h2 className="text-washed-yellow text-center md:text-left font-extrabold  p-5 text-2xl md:text-4xl">
+            <h2 className="text-washed-yellow text-center md:text-center font-extrabold  p-5 text-2xl md:text-4xl">
               PEER INTO MY CREATIVE MIND
             </h2>
           </div>
-          <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white text-left px-5">
+          <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white  px-5">
             <div className="mb-3 p-5 w-100 md:w-1/2">
               <p className="text-sm md:text-md lg:text-lg">
                 Odaine Forbes is a full-stack agile developer with a strong
@@ -153,39 +153,73 @@ function App() {
 
       <section id="Projects" className="bg-bland-white p-5">
         <div className="mb-4">
-          <h1 className="p-5 font-semibold text-4xl">FEATURED PROJECTS</h1>
+          <h1 className="p-5 font-semibold text-4xl text-center">
+            FEATURED PROJECTS
+          </h1>
+          <div className="md:w-3/4 md:mx-auto">
+            <div className="flex flex-row ">
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={churchdeck}
+                  alt="Screenshot of Churchdeck Landing Page"
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={todoBlast}
+                  alt="Screenshot of Todo Web App"
+                  className="w-full h-full md:max-w-full object-cover rounded-xl"
+                />
+              </div>
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={jacovid}
+                  alt="Chloropleth map of jamaica showing spread of covid, recoveries, deaths"
+                  className="w-full h-full md:max-w-full object-cover rounded-xl"
+                />
+              </div>
 
-          <div className="flex flex-row ">
-            <div className="w-full md:w-1/2 p-1">
-              <img
-                src={churchdeck}
-                alt=""
-                className="w-full h-auto md:max-w-full object-cover rounded-xl"
-              />
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={project}
+                  alt=""
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
             </div>
-            <div className="w-full md:w-1/2 p-1">
-              <img
-                src={todoBlast}
-                alt=""
-                className="w-full h-auto md:max-w-full object-cover rounded-xl"
-              />
-            </div>
-          </div>
 
-          <div className="flex flex-row ">
-            <div className="w-full md:w-1/2 p-1">
-              <img
-                src={jacovid}
-                alt=""
-                className="w-full h-auto md:max-w-full object-cover rounded-xl"
-              />
-            </div>
-            <div className="w-full md:w-1/2 p-1">
-              <img
-                src={project}
-                alt=""
-                className="w-full h-auto md:max-w-full object-cover rounded-xl"
-              />
+            <div className="flex flex-row ">
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={project}
+                  alt=""
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
+
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={project}
+                  alt=""
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={project}
+                  alt=""
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
+
+              <div className="w-full md:w-1/4 p-1">
+                <img
+                  src={project}
+                  alt=""
+                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                />
+              </div>
             </div>
           </div>
         </div>
