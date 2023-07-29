@@ -271,7 +271,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between mb-4 border-b-1 border-sky-500 p-2">
+          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
             <div className="w-16 md:w-32">
               <i className="devicon-react-original-wordmark colored text-4xl"></i>
               <i className="devicon-typescript-plain colored text-4xl"></i>
@@ -288,7 +288,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between mb-4 border-b-1  border-sky-500 p-2">
+          <div className="flex flex-row justify-between mb-4 border-b-2  border-sky-500 p-2">
             <div className="w-16 md:w-32">
               <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
             </div>
