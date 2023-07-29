@@ -6,33 +6,6 @@ import todoBlast from "./assets/todoBlast.png";
 import jacovid from "./assets/jacovid.png";
 
 function App() {
-  const aboutme = (
-    <ul>
-      <li>
-        <strong>
-          Highly skilled and experienced full-stack agile developer
-        </strong>{" "}
-        :rocket:
-      </li>
-      <li>Proficient in a variety of web technologies :computer:</li>
-      <li>Familiar with Agile methodologies :chart_with_upwards_trend:</li>
-      <li>
-        Skilled in collaborating with cross-functional teams
-        :busts_in_silhouette:
-      </li>
-      <li>Highly motivated and self-directed individual :fire:</li>
-      <li>Always eager to learn new things :bulb:</li>
-      <li>
-        Team player who is confident that I would be a valuable asset to any
-        team :people_holding_hands:
-      </li>
-      <li>
-        Passionate about using technology to solve real-world problems
-        :thinking:
-      </li>
-    </ul>
-  );
-
   return (
     <div className="App">
       <section className="sectionA flex items-center text-center md:text-left md:flex md:justify-center bg-calm-blue">
@@ -44,9 +17,11 @@ function App() {
             <h1 className="text-3xl font-bold md:text-6xl">
               YOUR <span>AGILE</span> FULL STACK DEVELOPER
             </h1>
-            <button className="p-2 rounded-full w-64 mt-4 bg-washed-yellow mb-5">
-              View Projects
-            </button>
+            <a href="#Projects">
+              <button className="p-2 rounded-full w-64 mt-4 bg-washed-yellow mb-5">
+                View Projects
+              </button>
+            </a>
           </div>
 
           <div className="shape-box flex flex-col mt-5 p-3 md:w-1/2">
@@ -77,7 +52,7 @@ function App() {
             </h2>
           </div>
           <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white text-left px-5">
-            <div className="mb-5 p-5">
+            <div className="mb-3 p-5 w-100 md:w-1/2">
               <p className="text-sm md:text-md lg:text-lg">
                 Odaine Forbes is a full-stack agile developer with a strong
                 track record of delivering high-quality, user-friendly web
@@ -88,17 +63,89 @@ function App() {
               </p>
             </div>
 
-            <div className="mt-5 md:mt-0 p-5">
-              <p className="text-sm md:text-md lg:text-lg">
-                I am a creative and innovative thinker who is always looking for
-                new ways to solve problems. I am also a highly organized and
-                efficient individual who is able to manage multiple projects
-                simultaneously. I am a team player who is always willing to help
-                others. I am also a good communicator who is able to clearly
-                explain complex technical concepts to both technical and
-                non-technical audiences. I am confident that I would be a
-                valuable asset to your team.
-              </p>
+            <div className="mt-2 md:mt-0 p-5">
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-javascript-plain colored"></i>
+                </div>
+                <div>&nbsp; Vanilla Javascript</div>
+              </div>
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-react-original colored"></i>
+                </div>
+                <div>&nbsp; React</div>
+              </div>
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-typescript-plain colored"></i>
+                </div>
+                <div>
+                  <p>&nbsp; TypeScript</p>
+                </div>
+              </div>
+
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-html5-plain colored"></i>
+                </div>
+                <div>
+                  <p>&nbsp; HTML5</p>
+                </div>
+              </div>
+
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-bootstrap-plain colored"></i>
+                </div>
+                <div>
+                  <p>&nbsp; Bootstrap</p>
+                </div>
+              </div>
+
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-tailwindcss-plain"></i>
+                </div>
+                <div>
+                  <p>&nbsp; TailwindCSS</p>
+                </div>
+              </div>
+
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-python-plain colored"></i>
+                </div>
+                <div>
+                  <p>&nbsp; Python</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-2 md:mt-0 p-5">
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-jest-plain colored"></i>
+                </div>
+                <div>
+                  <p>&nbsp; Jest</p>
+                </div>
+              </div>
+
+              <div className="flex flex-row">
+                <div>
+                  <i className="devicon-postgresql-plain-wordmark text-5xl"></i>
+                </div>
+              </div>
+
+              <div className="">
+                <div>
+                  <i className="devicon-mysql-plain-wordmark colored text-6xl"></i>
+                </div>
+                {/* <div>
+                  <p>&nbsp; MySQL</p>
+                </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -190,7 +237,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
+          <div className="flex flex-row justify-between mb-4 border-b-1 border-sky-500 p-2">
             <div className="w-16 md:w-32">
               <i className="devicon-react-original-wordmark colored text-4xl"></i>
               <i className="devicon-typescript-plain colored text-4xl"></i>
@@ -207,7 +254,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
+          <div className="flex flex-row justify-between mb-4 border-b-1  border-sky-500 p-2">
             <div className="w-16 md:w-32">
               <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
             </div>
@@ -220,6 +267,26 @@ function App() {
                 <i className="devicon-github-original-wordmark colored text-4xl"></i>
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-5 p-2 flex flex-col items-center">
+          <div className="text-center mb-5">
+            <h1 className="font-extrabold text-5xl md:text-8xl">
+              GET IN TOUCH
+            </h1>
+          </div>
+          <div className="w-100 md:w-1/2 text-center">
+            <p>
+              I would love to hear from you. Send a message and discuss
+              potential projects, collaborations, or job opportunities.
+            </p>
+          </div>
+
+          <div className="flex flex-row">
+            <a href="https://www.linkedin.com/in/odaine-forbes-a5454317a/">
+              <i className="devicon-linkedin-plain-wordmark colored text-6xl md:text-8xl"></i>
+            </a>
           </div>
         </div>
       </section>
