@@ -14,7 +14,7 @@ function App() {
             <button className="btn border p-2 rounded-full w-64 mb-4">
               Welcome to Odaine's Portfolio
             </button>
-            <h1 className="text-6xl font-bold md:text-8xl font-press">
+            <h1 className="text-6xl font-bold md:text-8xl font-Staatliches">
               YOUR <span>AGILE</span> FULL STACK DEVELOPER
             </h1>
             <a href="#Projects">
@@ -47,13 +47,13 @@ function App() {
       <section className="sectionB md:h-50 md:flex md:justify-center bg-real-black">
         <div className="flex flex-col md:mx-auto md:w-3/4">
           <div className="mb-5 mt-5 px-5">
-            <h2 className="text-washed-yellow text-center md:text-center font-extrabold  p-5 text-2xl md:text-4xl">
+            <h2 className="text-washed-yellow text-center md:text-center font-extrabold  p-5 text-2xl md:text-4xl font-Staatliches">
               PEER INTO MY CREATIVE MIND
             </h2>
           </div>
           <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white  px-5">
             <div className="mb-3 p-5 w-100 md:w-1/2">
-              <p className="text-sm md:text-md lg:text-lg">
+              <p className="text-sm md:text-md lg:text-lg font-Libre">
                 Odaine Forbes is a full-stack agile developer with a strong
                 track record of delivering high-quality, user-friendly web
                 applications. I am proficient in a variety of web technologies,
@@ -153,7 +153,7 @@ function App() {
 
       <section id="Projects" className="bg-bland-white p-5">
         <div className="mb-5">
-          <h1 className="p-5 font-semibold text-4xl text-center">
+          <h1 className="p-5 font-semibold text-4xl text-center font-Staatliches">
             FEATURED PROJECTS
           </h1>
           <div className="md:w-3/4 md:mx-auto">

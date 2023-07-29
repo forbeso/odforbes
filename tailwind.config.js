@@ -11,7 +11,8 @@ module.exports = {
         "dark-blue": "#1E3050",
       },
       fontFamily: {
-        press: ["Staatliches"],
+        Staatliches: ["Staatliches"],
+        Libre: ["LibreBaskerville"],
       },
     },
   },
