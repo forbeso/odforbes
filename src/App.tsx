@@ -312,8 +312,8 @@ function App() {
           </div>
           <div className="w-100 md:w-1/2 text-center">
             <p>
-              I would love to hear from you. Send a message and discuss
-              potential projects, collaborations, or job opportunities.
+              I would love to hear from you. Send a message to discuss potential
+              projects, collaborations, or job opportunities.
             </p>
           </div>
 
