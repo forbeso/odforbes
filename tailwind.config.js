@@ -10,6 +10,9 @@ module.exports = {
         "bland-white": "#E6EBE0",
         "dark-blue": "#1E3050",
       },
+      fontFamily: {
+        press: ["Staatliches"],
+      },
     },
   },
   plugins: [],

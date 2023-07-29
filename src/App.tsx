@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <section className="sectionA flex items-center text-center md:text-left md:flex md:justify-center bg-calm-blue">
-        <div className="two-boxes flex flex-col md:flex-row md:w-10/12 md:justify-between">
+        <div className="mx-auto two-boxes flex flex-col md:flex-row md:w-10/12 md:justify-between">
           <div className="mt-5 mb-5 md:w-1/2">
             <button className="btn border p-2 rounded-full w-64 mb-4">
               Welcome to Odaine's Portfolio
             </button>
-            <h1 className="text-3xl font-bold md:text-6xl">
+            <h1 className="text-6xl font-bold md:text-8xl font-press">
               YOUR <span>AGILE</span> FULL STACK DEVELOPER
             </h1>
             <a href="#Projects">
@@ -152,7 +152,7 @@ function App() {
       </section>
 
       <section id="Projects" className="bg-bland-white p-5">
-        <div className="mb-4">
+        <div className="mb-5">
           <h1 className="p-5 font-semibold text-4xl text-center">
             FEATURED PROJECTS
           </h1>
