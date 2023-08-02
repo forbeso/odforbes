@@ -15,7 +15,7 @@ function App() {
             <button className="btn border p-2 rounded-full w-64 mb-4">
               Welcome to Odaine's Portfolio
             </button>
-            <h1 className="text-6xl font-bold md:text-8xl font-Staatliches">
+            <h1 className="text-6xl font-bold md:text-8xl font-Staatliches p-2">
               <span>AGILE</span> FULL STACK DEVELOPER
             </h1>
             <a href="#Projects">
@@ -25,7 +25,7 @@ function App() {
             </a>
           </div>
 
-          <div className="shape-box flex flex-col mt-5 md:w-1/2">
+          <div className="shape-box flex flex-col mt-5 md:w-1/2 p-2">
             <div className="w-100 flex flex-row justify-around mb-5">
               <div className="w-3/4 rounded-tr-full rounded-bl-full h-16 bg-washed-yellow"></div>
               <div className="w-16 border rounded-tr-full rounded-tl-full rounded-bl-full h-16"></div>
