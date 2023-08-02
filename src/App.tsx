@@ -4,18 +4,19 @@ import churchdeck from "./assets/churchdeck.png";
 import project from "./assets/coding.jpeg";
 import todoBlast from "./assets/todoBlast.png";
 import jacovid from "./assets/jacovid.png";
+import me from "./assets/me.jpeg";
 
 function App() {
   return (
     <div className="App">
       <section className="sectionA flex items-center text-center md:text-left md:flex md:justify-center bg-calm-blue">
         <div className="mx-auto two-boxes flex flex-col md:flex-row md:w-10/12 md:justify-between">
-          <div className="mt-5 mb-5 md:w-1/2">
+          <div className="mt-5 mb-5 md:w-1/2 animate__animated animate__fadeIn">
             <button className="btn border p-2 rounded-full w-64 mb-4">
               Welcome to Odaine's Portfolio
             </button>
             <h1 className="text-6xl font-bold md:text-8xl font-Staatliches">
-              YOUR <span>AGILE</span> FULL STACK DEVELOPER
+              <span>AGILE</span> FULL STACK DEVELOPER
             </h1>
             <a href="#Projects">
               <button className="p-2 rounded-full w-64 mt-4 bg-washed-yellow mb-5">
@@ -24,16 +25,22 @@ function App() {
             </a>
           </div>
 
-          <div className="shape-box flex flex-col mt-5 p-3 md:w-1/2">
+          <div className="shape-box flex flex-col mt-5 md:w-1/2">
             <div className="w-100 flex flex-row justify-around mb-5">
               <div className="w-3/4 rounded-tr-full rounded-bl-full h-16 bg-washed-yellow"></div>
               <div className="w-16 border rounded-tr-full rounded-tl-full rounded-bl-full h-16"></div>
             </div>
 
             <div className="w-100 flex flex-row justify-around mb-4">
-              <div className="w-1/4 border rounded-tr-full rounded-br-full rounded-bl-full"></div>
-              <div className="w-1/4 border"></div>
-              <div className="w-1/4 rounded-bl-full h-16 bg-washed-yellow"></div>
+              <div className="w-1/4 border rounded-tr-full rounded-br-full rounded-bl-full animate__animated animate__fadeIn"></div>
+              <div className="w-4/12 animate__animated animate__fadeIn">
+                <img
+                  src={me}
+                  alt="me"
+                  className="w-full h-full md:max-w-full object-cover"
+                />
+              </div>
+              {/* <div className="w-1/4 rounded-bl-full h-16 bg-washed-yellow"></div> */}
             </div>
 
             <div className="w-100 flex flex-row justify-around">
@@ -48,23 +55,27 @@ function App() {
         <div className="flex flex-col md:mx-auto md:w-3/4">
           <div className="mb-5 mt-5 px-5">
             <h2 className="text-washed-yellow text-center md:text-center font-extrabold  p-5 text-2xl md:text-4xl font-Staatliches">
-              PEER INTO MY CREATIVE MIND
+              WHO AM I?
             </h2>
           </div>
           <div className="text-2xl flex flex-col md:flex md:flex-row md:mx-auto text-white  px-5">
             <div className="mb-3 p-5 w-100 md:w-1/2">
               <p className="text-sm md:text-md lg:text-lg font-Libre">
-                Odaine Forbes is a full-stack agile developer with a strong
-                track record of delivering high-quality, user-friendly web
-                applications. I am proficient in a variety of web technologies,
-                including React JS, Python, HTML, CSS, JavaScript, SQL, and
-                NoSQL. I am also familiar with Agile methodologies and I am
-                skilled in collaborating with cross-functional teams.
+                Hello there! 👋🏾 I'm a passionate and versatile full-stack agile
+                developer with a deep love for crafting dynamic web and desktop
+                applications. My journey in the tech world has led me to become
+                captivated by the possibilities of data-driven applications, the
+                intriguing realm of the Internet of Things, and the fascinating
+                field of Artificial Intelligence. My coding adventure
+                predominantly revolves around two powerful languages: JavaScript
+                and Python 🐍. Let's connect and explore how we can create
+                cutting-edge solutions that harness the power of technology to
+                make a positive impact!
               </p>
             </div>
 
-            <div className="mt-2 md:mt-0 p-5">
-              <div className="flex flex-row">
+            <div className="mt-2 md:mt-0 p-5 text-sm md:text-base">
+              <div className="flex flex-row w-auto h-auto">
                 <div>
                   <i className="devicon-javascript-plain colored"></i>
                 </div>
@@ -120,31 +131,8 @@ function App() {
                   <p>&nbsp; Python</p>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-2 md:mt-0 p-5">
-              <div className="flex flex-row">
-                <div>
-                  <i className="devicon-jest-plain colored"></i>
-                </div>
-                <div>
-                  <p>&nbsp; Jest</p>
-                </div>
-              </div>
-
-              <div className="flex flex-row">
-                <div>
-                  <i className="devicon-postgresql-plain-wordmark text-5xl"></i>
-                </div>
-              </div>
-
-              <div className="">
-                <div>
-                  <i className="devicon-mysql-plain-wordmark colored text-6xl"></i>
-                </div>
-                {/* <div>
-                  <p>&nbsp; MySQL</p>
-                </div> */}
+              <div>
+                <i className="devicon-postgresql-plain-wordmark text-5xl"></i>
               </div>
             </div>
           </div>
@@ -153,72 +141,46 @@ function App() {
 
       <section id="Projects" className="bg-bland-white p-5">
         <div className="mb-5">
-          <h1 className="p-5 font-semibold text-4xl text-center font-Staatliches">
-            FEATURED PROJECTS
+          <h1 className="p-5 font-bold text-4xl text-center font-Staatliches">
+            SOME OF MY PROJECTS
           </h1>
           <div className="md:w-3/4 md:mx-auto">
-            <div className="flex flex-row ">
+            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn">
               <div className="w-full md:w-1/4 p-1">
+                <p>Churchdeck</p>
                 <img
                   src={churchdeck}
                   alt="Screenshot of Churchdeck Landing Page"
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
+                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
                 />
               </div>
               <div className="w-full md:w-1/4 p-1">
+                <p>TodoBlast</p>
                 <img
                   src={todoBlast}
                   alt="Screenshot of Todo Web App"
-                  className="w-full h-full md:max-w-full object-cover rounded-xl"
+                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
                 />
               </div>
               <div className="w-full md:w-1/4 p-1">
+                <p>JaCovid</p>
                 <img
                   src={jacovid}
                   alt="Chloropleth map of jamaica showing spread of covid, recoveries, deaths"
-                  className="w-full h-full md:max-w-full object-cover rounded-xl"
+                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
                 />
               </div>
 
               <div className="w-full md:w-1/4 p-1">
-                <img
-                  src={project}
-                  alt=""
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-row ">
-              <div className="w-full md:w-1/4 p-1">
-                <img
-                  src={project}
-                  alt=""
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
-                />
-              </div>
-
-              <div className="w-full md:w-1/4 p-1">
-                <img
-                  src={project}
-                  alt=""
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
-                />
-              </div>
-              <div className="w-full md:w-1/4 p-1">
-                <img
-                  src={project}
-                  alt=""
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
-                />
-              </div>
-
-              <div className="w-full md:w-1/4 p-1">
-                <img
-                  src={project}
-                  alt=""
-                  className="w-full h-auto md:max-w-full object-cover rounded-xl"
-                />
+                <p>Scrape and Sense</p>
+                <video
+                  preload="auto"
+                  controls
+                  className="w-full h-full md:max-w-full object-cover md:rounded-xl">
+                  <source
+                    src={require("./assets/scrapeandsense.mp4")}
+                    type="video/mp4"></source>
+                </video>
               </div>
             </div>
           </div>
@@ -313,7 +275,7 @@ function App() {
           <div className="w-100 md:w-1/2 text-center">
             <p>
               I would love to hear from you. Send a message to discuss potential
-              projects, collaborations, or job opportunities.
+              projects, collaborations, or job opportunities. 🚀 ⚡️
             </p>
           </div>
 

@@ -10,6 +10,7 @@
     "@types/node": "^16.18.39",
     "@types/react": "^18.2.16",
     "@types/react-dom": "^18.2.7",
+    "animate.css": "^4.1.1",
     "express": "^4.18.2",
     "jspdf": "^2.5.1",
     "react": "^18.2.0",
