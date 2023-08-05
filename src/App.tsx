@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import churchdeck from "./assets/churchdeck.png";
-import project from "./assets/coding.jpeg";
 import todoBlast from "./assets/todoBlast.png";
 import jacovid from "./assets/jacovid.png";
 import me from "./assets/me.jpeg";
@@ -145,7 +144,7 @@ function App() {
             SOME OF MY PROJECTS
           </h1>
           <div className="md:w-3/4 md:mx-auto">
-            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn">
+            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn mb-4">
               <div className="w-full md:w-1/4 p-1">
                 <p>Churchdeck</p>
                 <img
@@ -162,8 +161,9 @@ function App() {
                   className="w-full h-full md:max-w-full object-cover md:rounded-xl"
                 />
               </div>
+
               <div className="w-full md:w-1/4 p-1">
-                <p>JaCovid</p>
+                <p className="italic">JaCovid</p>
                 <img
                   src={jacovid}
                   alt="Chloropleth map of jamaica showing spread of covid, recoveries, deaths"
@@ -172,7 +172,7 @@ function App() {
               </div>
 
               <div className="w-full md:w-1/4 p-1">
-                <p>Scrape and Sense</p>
+                <p className="italic">Scrape and Sense</p>
                 <video
                   preload="auto"
                   controls
@@ -183,18 +183,49 @@ function App() {
                 </video>
               </div>
             </div>
+
+            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn mt-5">
+              <div className="w-full md:w-1/2 p-1">
+                <p className="italic">
+                  Resume Parser - parsing pdf using python
+                </p>
+                <video
+                  preload="auto"
+                  controls
+                  className="w-full h-full md:max-w-full object-cover md:rounded-xl">
+                  <source
+                    src={require("./assets/parsy.mov")}
+                    type="video/mp4"></source>
+                </video>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="flex flex-col md:w-3/4 md:mx-auto">
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
+          <div className="flex flex-row justify-between mt-3 mb-4 border-b-2 border-t-2 border-sky-500 p-2">
             <div className="w-16 md:w-32">
               <i className="devicon-react-original-wordmark colored text-4xl"></i>
               <i className="devicon-postgresql-plain-wordmark colored text-4xl"></i>
             </div>
             <div className="w-40 md:w-96">
-              <span className="font-bold">Churchdeck</span> - church membership
+              <span className="font-bold">CHURCHDECK</span> - church membership
               made heavenly easy
+            </div>
+            <div>
+              <a href="https://github.com/forbeso/churchdweb">
+                <i className="devicon-github-original-wordmark colored text-4xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-row justify-between mt-3 mb-4 border-b-2 border-sky-500 p-2">
+            <div className="w-16 md:w-32">
+              <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
+            </div>
+            <div className="w-40 md:w-96">
+              <span className="font-bold">PARSY</span> - AI-powered resume
+              parsing for job seekers.
             </div>
             <div>
               <a href="https://github.com/forbeso/churchdweb">
@@ -208,7 +239,7 @@ function App() {
               <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
             </div>
             <div className="w-40 md:w-96">
-              <span className="font-bold">Scrape&Sense</span> - a company
+              <span className="font-bold">SCRAPE&SENSE</span> - a company
               brand/product sentiment analysis tool.
             </div>
             <div>
@@ -223,7 +254,7 @@ function App() {
               <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
             </div>
             <div className="w-40 md:w-96">
-              <span className="font-bold">Alrise</span> - Alarm Clock AI app
+              <span className="font-bold">ALRISE</span> - Alarm Clock AI app
               allows you to wake up in a personalized and motivational way
             </div>
             <div>
@@ -240,7 +271,7 @@ function App() {
               {/* <i className="devicon-tailwindcss-original-wordmark colored text-6xl"></i> */}
             </div>
             <div className="w-40 md:w-96">
-              <span className="font-bold">TodoBlast</span> - Your Ultimate Todo
+              <span className="font-bold">TODOBLAST</span> - Your Ultimate Todo
               List Web App
             </div>
             <div>
@@ -255,7 +286,7 @@ function App() {
               <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
             </div>
             <div className="w-40 md:w-96">
-              <span className="font-bold">JaCovid</span> - visualizing the
+              <span className="font-bold">JACOVID</span> - visualizing the
               spread of Covid-19 across Jamaica's parishes
             </div>
             <div>
