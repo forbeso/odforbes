@@ -161,7 +161,7 @@ function App() {
                     members, track tithes, organize events, and view insights
                     through a comprehensive dashboard.
                     <a
-                      href="https://parsyxl.streamlit.app/"
+                      href="https://developdeck.vercel.app/"
                       className="text-blue-500">
                       Demo
                     </a>
@@ -225,11 +225,7 @@ function App() {
               </div>
 
               <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-2">
-                <img
-                  className="w-full"
-                  src={jacovid}
-                  alt="Sunset in the mountains"
-                />
+                <img className="w-full" src={jacovid} alt="JaCovid Project" />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">
                     JaCovid - visualizing Covid-19 across Jamaica's parishes
@@ -239,13 +235,13 @@ function App() {
                     to get data related to the spread of Covid-19 across
                     Jamaica's parishes. A choropleth map will be generated.
                     <a
-                      href="https://github.com/forbeso/JaCovid"
+                      href="https://jacovid.streamlit.app/"
                       className="text-blue-500">
                       Demo
                     </a>
                     &nbsp;
                     <a
-                      href="https://github.com/forbeso/JaCovid"
+                      href="https://github.com/forbeso/stjacovid"
                       className="text-blue-500">
                       Github
                     </a>
