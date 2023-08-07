@@ -193,12 +193,11 @@ function App() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">Todo-Blast</div>
+                  <div className="font-bold text-xl mb-2">Todo Web App</div>
                   <p className="text-gray-700 text-base">
-                    Stay organized and boost productivity with ToDoer - a
-                    feature-rich Todo List web app built using TypeScript.
-                    Manage tasks efficiently, prioritize, and achieve your goals
-                    with ease. 🚀 &nbsp;
+                    Todo List web app built using TypeScript. Manage tasks
+                    efficiently, prioritize, and achieve your goals with ease.
+                    🚀 &nbsp;
                     <a
                       href="https://github.com/forbeso/TodoBlast"
                       className="text-blue-500">
@@ -220,7 +219,7 @@ function App() {
                     #tailwindcss
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #supabase
+                    #typescript
                   </span>
                 </div>
               </div>
