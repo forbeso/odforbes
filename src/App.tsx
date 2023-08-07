@@ -144,155 +144,214 @@ function App() {
             SOME OF MY PROJECTS
           </h1>
           <div className="md:w-3/4 md:mx-auto">
-            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn mb-4">
-              <div className="w-full md:w-1/4 p-1">
-                <p>Churchdeck</p>
+            <div className="flex flex-col md:flex md:flex-row md:justify-around md:flex-wrap animate__animated animate__fadeIn mb-4">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-3">
                 <img
+                  className="w-full"
                   src={churchdeck}
-                  alt="Screenshot of Churchdeck Landing Page"
-                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
+                  alt="Sunset in the mountains"
                 />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    ChurchDeck: Church membership made heavenly easy.
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    ChurchDeck is a church membership web application built
+                    using React. It provides administrative features to manage
+                    members, track tithes, organize events, and view insights
+                    through a comprehensive dashboard.
+                    <a
+                      href="https://parsyxl.streamlit.app/"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/churchdweb"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #react
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #postgreSQL
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #supabase
+                  </span>
+                </div>
               </div>
-              <div className="w-full md:w-1/4 p-1">
-                <p>TodoBlast</p>
+
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-2">
                 <img
+                  className="w-full"
                   src={todoBlast}
-                  alt="Screenshot of Todo Web App"
-                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
+                  alt="Sunset in the mountains"
                 />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">Todo-Blast</div>
+                  <p className="text-gray-700 text-base">
+                    Stay organized and boost productivity with ToDoer - a
+                    feature-rich Todo List web app built using TypeScript.
+                    Manage tasks efficiently, prioritize, and achieve your goals
+                    with ease. 🚀 &nbsp;
+                    <a
+                      href="https://github.com/forbeso/TodoBlast"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/TodoBlast"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #react
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #tailwindcss
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #supabase
+                  </span>
+                </div>
               </div>
 
-              <div className="w-full md:w-1/4 p-1">
-                <p className="italic">JaCovid</p>
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-2">
                 <img
+                  className="w-full"
                   src={jacovid}
-                  alt="Chloropleth map of jamaica showing spread of covid, recoveries, deaths"
-                  className="w-full h-full md:max-w-full object-cover md:rounded-xl"
+                  alt="Sunset in the mountains"
                 />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    JaCovid - visualizing Covid-19 across Jamaica's parishes
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    Using data from Jamaica's Ministry of Health (MOH) website
+                    to get data related to the spread of Covid-19 across
+                    Jamaica's parishes. A choropleth map will be generated.
+                    <a
+                      href="https://github.com/forbeso/JaCovid"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/JaCovid"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #python
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #streamlit
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #datawrangling
+                  </span>
+                </div>
               </div>
 
-              <div className="w-full md:w-1/4 p-1">
-                <p className="italic">Scrape and Sense</p>
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-2">
                 <video
                   preload="auto"
                   controls
-                  className="w-full h-full md:max-w-full object-cover md:rounded-xl">
-                  <source
-                    src={require("./assets/scrapeandsense.mp4")}
-                    type="video/mp4"></source>
-                </video>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex md:flex-row animate__animated animate__fadeIn mt-5">
-              <div className="w-full md:w-1/2 p-1">
-                <p className="italic">
-                  Resume Parser - parsing pdf using python
-                </p>
-                <video
-                  preload="auto"
-                  controls
-                  className="w-full h-full md:max-w-full object-cover md:rounded-xl">
+                  className="w-full  md:max-w-full object-cover">
                   <source
                     src={require("./assets/parsy.mov")}
                     type="video/mp4"></source>
                 </video>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    Resume Parser - get specific info from your resume
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    The "Resume Parser" app, powered by OpenAI's advanced
+                    language model. The app aims to enhance the resume parsing
+                    process, ensuring accurate extraction of vital information
+                    and providing job seekers with a seamless experience when
+                    applying for jobs.
+                    <a
+                      href="https://parsyxl.streamlit.app/"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/parsy"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #python
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #streamlit
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #openai
+                  </span>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="flex flex-col md:w-3/4 md:mx-auto">
-          <div className="flex flex-row justify-between mt-3 mb-4 border-b-2 border-t-2 border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-react-original-wordmark colored text-4xl"></i>
-              <i className="devicon-postgresql-plain-wordmark colored text-4xl"></i>
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">CHURCHDECK</span> - church membership
-              made heavenly easy
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/churchdweb">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-between mt-3 mb-4 border-b-2 border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">PARSY</span> - AI-powered resume
-              parsing for job seekers.
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/churchdweb">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">SCRAPE&SENSE</span> - a company
-              brand/product sentiment analysis tool.
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/ScrapeandSense">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">ALRISE</span> - Alarm Clock AI app
-              allows you to wake up in a personalized and motivational way
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/AIrise">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-between mb-4 border-b-2 border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-react-original-wordmark colored text-4xl"></i>
-              <i className="devicon-typescript-plain colored text-4xl"></i>
-              {/* <i className="devicon-tailwindcss-original-wordmark colored text-6xl"></i> */}
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">TODOBLAST</span> - Your Ultimate Todo
-              List Web App
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/TodoBlast">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-between mb-4 border-b-2  border-sky-500 p-2">
-            <div className="w-16 md:w-32">
-              <i className="devicon-python-plain-wordmark text-dark-blue text-5xl"></i>
-            </div>
-            <div className="w-40 md:w-96">
-              <span className="font-bold">JACOVID</span> - visualizing the
-              spread of Covid-19 across Jamaica's parishes
-            </div>
-            <div>
-              <a href="https://github.com/forbeso/JaCovid">
-                <i className="devicon-github-original-wordmark colored text-4xl"></i>
-              </a>
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+                <video
+                  preload="auto"
+                  controls
+                  className="w-full  md:max-w-full object-cover">
+                  <source
+                    src={require("./assets/scrapeandsense.mp4")}
+                    type="video/mp4"></source>
+                </video>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    Twitter/X Sentiment Analysis App
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    Scrape&Sense is a tool for sentiment analysis of tweets. It
+                    allows users to input the name of a company and return the
+                    sentiment of tweets related to that company.
+                    <a
+                      href="https://github.com/forbeso/ScrapeandSense"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/ScrapeandSense"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #python
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #streamlit
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #dataanalytics
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
