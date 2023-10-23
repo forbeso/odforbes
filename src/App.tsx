@@ -149,7 +149,7 @@ function App() {
                 <img
                   className="w-full"
                   src={churchdeck}
-                  alt="Sunset in the mountains"
+                  alt="ChurchDeck: Church membership made heavenly easy."
                 />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">
@@ -186,11 +186,55 @@ function App() {
                 </div>
               </div>
 
+              <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+                <video
+                  preload="auto"
+                  controls
+                  className="w-full  md:max-w-full object-cover">
+                  <source
+                    src={require("./assets/Parsly.webm")}
+                    type="video/mp4"></source>
+                </video>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">
+                    Parsly - Talk to your docs
+                  </div>
+                  <p className="text-gray-700 text-base">
+                    Developed an AI-powered chatbot capable of processing
+                    multiple PDF documents and delivering context-aware answers
+                    in response to user queries.
+                    <a
+                      href="https://github.com/forbeso/parsy"
+                      className="text-blue-500">
+                      Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      href="https://github.com/forbeso/parsy"
+                      className="text-blue-500">
+                      Github
+                    </a>
+                  </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #python
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #streamlit
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #dataanalytics
+                  </span>
+                </div>
+              </div>
+
               <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-2">
                 <img
                   className="w-full"
                   src={todoBlast}
-                  alt="Sunset in the mountains"
+                  alt="Todo List web app built using TypeScript. Manage tasks
+                    efficiently, prioritize, and achieve your goals with ease."
                 />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">Todo Web App</div>
